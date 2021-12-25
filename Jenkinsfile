@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git url: 'https://github.com/charannaik/cicdproject1.git', branch: 'main'
+                git url: 'https://github.com/charannaik/simplicicdp1.git', branch: 'main'
             }
         }  
         stage('Compile') {
